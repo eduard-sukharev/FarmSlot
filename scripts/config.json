@@ -1,0 +1,46 @@
+{
+	"win_combinations": {
+		"aaa": {
+			"credits": 10
+		},
+		"bbb": {
+			"credits": 20
+		},
+		"ccc": {
+			"multiplicator": 2
+		},
+		"ddd": {
+			"multiplicator": 5
+		},
+		"eee": {
+			"credits": 30
+		},
+		"fff": {
+			"multiplicator": 10
+		},
+		"ggg": {
+			"credits": 50,
+			"multiplicator": 2
+		}
+	},
+	"reels": [
+		{
+			"items": ["a","b","a","c","b","a","d","b","c","a","e","b","f","c","g","g","b","a","f","b","f","a","c","d","e"],
+			"speed": 3000,
+			"friction": 20,
+			"direction": 1
+		},
+		{
+			"items": ["a","b","a","c","b","a","d","b","c","a","e","b","f","c","g","g","b","a","f","b","f","a","c","d","e"],
+			"speed": 5000,
+			"friction": 30,
+			"direction": -1
+		},
+		{
+			"items": ["a","b","a","c","b","a","d","b","c","a","e","b","f","c","g","g","b","a","f","b","f","a","c","d","e"],
+			"speed": 4000,
+			"friction": 25,
+			"direction": 1
+		}
+	]
+}
